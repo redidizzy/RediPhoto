@@ -22,7 +22,7 @@
       <ul class="navbar-nav ml-auto">
         <% unless current_user %>
           <li class="nav-item">
-            <%= link_to "Sign in", new_user_session_path, class: "btn btn-primary nav-link" %>
+            <%= link_to "Sign in", new_user_session_path, class: "btn btn-primary" %>
           </li>
         <% else %>
           <li class="nav-item">
@@ -32,7 +32,7 @@
             <% end %>
           </li>
           <li class="nav-item">
-            <%= link_to "Log out", destroy_user_session_path, class: "btn btn-danger nav-link", method: :delete %>
+            <%= link_to "Log out", destroy_user_session_path, class: "btn btn-danger", method: :delete %>
           </li>
         <% end %>
       </ul>
