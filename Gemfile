@@ -23,6 +23,9 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+gem 'devise'
+gem 'devise-bootstrap-views', '~> 1.0'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
@@ -47,7 +50,6 @@ end
 
 group :production do 
   gem 'pg'
-  gem 'rails_12factor'
 end
 
 group :test do
