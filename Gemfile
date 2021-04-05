@@ -27,6 +27,8 @@ gem 'devise'
 gem 'devise-bootstrap-views', '~> 1.0'
 gem 'font-awesome-rails'
 gem 'stripe'
+gem 'aws-sdk-s3'
+gem 'mini_magick'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
